@@ -101,7 +101,7 @@ a:hover {
     position: fixed;
 }
 
-#resume {
+#aboutme {
   z-index: 0;
   display: block;
   position: absolute;
@@ -132,11 +132,6 @@ h2 {
 h3 {
   background-color: rgb(98, 239, 225);
   margin-top: 0%;
-}
-
-img {
-  width: 70%;
-  margin-left: 15%;
 }
 
 #portfolio {
