@@ -1,0 +1,150 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#home {
+  z-index: 0;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgb(91, 129, 255);
+  /*background-image: url(darkocean.jpg);
+  background-size: cover;*/
+}
+
+#hometext {
+  position: absolute;
+
+}
+
+.intro {
+  font-family: "Work Sans", serif;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  text-align: center;
+  font-weight: auto;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  border: solid;
+  border-width: .1em;
+  padding: 1% 1%;
+  width: 55%;
+  margin: 0% 22.5%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "CocoGothicSmallCaps-Bold", sans-serif;
+  font-size: 4.5em;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  width: 55%;
+  margin: 15% 22.5% 0% 22.5%;
+  padding: 1% 0%;
+}
+
+.menuitems {
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  margin: 3% -13%;
+}
+
+.submenu {
+  list-style-type: upper-roman;
+  margin: -2% 0 5% 0;
+  line-height: .6em;
+  box-sizing: border-box;
+  width: 80%;
+  line-height: 1.5em;
+  font-weight: lighter;
+  font-size: .65em;
+  font-family: "Work Sans", sans-serif;
+}
+
+.menu {
+  width: 22%;
+  text-align: left;
+  font-family: "Work Sans",sans-serif;
+  font-size: 1.75em;
+  line-height: 1.5em;
+  margin-top: 3%;
+  margin-left: .5%;
+  position: fixed;
+  z-index: 2;
+  color: rgb(255, 255, 255);
+}
+
+
+a, a:visited {
+  display: block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: rgb(158, 247, 244);
+}
+
+.menuicon {
+    font-size: 2em;
+    margin: -.5% 0%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    position: fixed;
+}
+
+#resume {
+  z-index: 0;
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: 80%;
+  width: 100%;
+  height: 175%;
+  background-color: rgb(255, 185, 107);
+}
+
+h2, h3 {
+  font-family: "CocoGothicSmallCaps-Bold", serif;
+  text-align: center;
+  font-size: 5em;
+  font-weight: bold;
+  width: 100%;
+  height: 8%;
+  line-height: 2em;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  background-color: rgb(255, 185, 107);
+  margin-top: 0%;
+}
+
+h3 {
+  background-color: rgb(98, 239, 225);
+  margin-top: 0%;
+}
+
+img {
+  width: 70%;
+  margin-left: 15%;
+}
+
+#portfolio {
+  z-index: 0;
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: 225%;
+  width: 100%;
+  background-color: rgb(98, 239, 225);
+}
