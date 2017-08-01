@@ -10,7 +10,7 @@ $('.menuicon').on('click', function() {
 
 $('.submenu').hide()
   $('.portfolio, .submenu').hover(function() {
-    $('.submenu').slideToggle(200);
+    $('.submenu').slideToggle(400);
   });
 
 $(document).ready(mywebsite);

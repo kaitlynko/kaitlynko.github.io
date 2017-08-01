@@ -130,8 +130,8 @@ h2 {
 }
 
 h3 {
-  background-color: rgb(98, 239, 225);
-  margin-top: 0%;
+  background-color: rgb(84, 221, 219);
+  margin: 0% auto;
 }
 
 #portfolio {
@@ -139,7 +139,26 @@ h3 {
   display: block;
   position: absolute;
   box-sizing: border-box;
-  margin-top: 225%;
+  margin-top: 175%;
   width: 100%;
-  background-color: rgb(98, 239, 225);
+  height: 175%;
+  background-color: rgb(84, 221, 219);
+  font-family: "Work Sans", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+#project1head, #project2head {
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.5em;
+  font-family: "LuloCleanOutline-Bold", sans-serif;
+
+}
+
+span {
+  font-weight: lighter;
+}
+
+.project1, .project2 {
+  margin: 5% 2%;
 }
