@@ -9,8 +9,17 @@ $('.menuicon').on('click', function() {
 });
 
 $('.submenu').hide()
-  $('.portfolio, .submenu').hover(function() {
+  $('.portfoliotoggle').hover(function() {
     $('.submenu').slideToggle(400);
   });
 
+$('.project1shadow').hide()
+$('.project1').hover(function() {
+  $('.project1shadow').fadeToggle(100);
+});
+
+$('.project2shadow').hide()
+$('.project2').hover(function() {
+  $('.project2shadow').fadeToggle(100);
+});
 $(document).ready(mywebsite);

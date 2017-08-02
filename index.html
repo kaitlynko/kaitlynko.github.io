@@ -49,11 +49,13 @@
     <ul class="menuitems">
       <li><a href="#hometext">HOME.</a></li>
       <li><a href="#aboutme">ABOUT ME.</a></li>
+      <div class="portfoliotoggle">
       <li class="portfolio"><a href="#portfolio">PORTFOLIO.</a></li>
         <ul class="submenu">
           <li class="projects"><a href="#project1head">MULTI-TOUCH STYLUS</a></li>
           <li class="projects"><a href="#project2head">DUAL-FUNCTION SUP PADDLE</a></li>
         </ul>
+      </div>
       <li><a href="images/resume.pdf" target="_blank">RESUME.</a></li>
       <li><a href="#other">OTHER.</a></li>
     </ul>
@@ -61,22 +63,28 @@
 
   <div id="aboutme">
     <h2>a b o u t &nbspm e .</h2>
+    <div class="mypic">
+    </div>
   </div>
 
   <div id="portfolio">
     <h3>p o r t f o l i o .</h3>
     <div class="project1">
-      <span id="project1head">multi-touch stylus</span>
-      <span>REHABILITATION INSTITUTE OF CHICAGO (SHIRLEY RYAN ABILITYLAB)</span>
-      <p class="project1description">In a first-year engineering design course</p>
-    </div>
-    
-    <div class="project2">
-      <span id="project2head">dual-function SUP paddle</span>
-      <p class="project1description">blah blah blah</p>
-    </div>
+      <div class="project1shadow"></div>
+      <div class="project1text">
+        <span>BRACELUS</span>
+        <!--<p>a multi-touch stylus solution for a woman with spastic cerebral palsy</p>-->
+      </div>
     </div>
 
+    <div class="project2">
+      <div class="project2shadow"></div>
+      <div class="project2text">
+      <span>PANDLE</span>
+      <p>a dual-function SUP paddle solution</p>
+    </div>
+    </div>
+</div>
 
 
   <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
