@@ -28,10 +28,10 @@
 
 <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
 
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Petit+Formal+Script|Work+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Petit+Formal+Script|Work+Sans:300,400,500,600|Libre+Baskerville" rel="stylesheet">
   <link href="css/mywebsitestyle.css" type="text/css" rel="stylesheet">
   <head>
-    <title>Kaitlyn Ko</title>
+    <title>kaitlyn ko.</title>
     <link rel="icon" href="images/icon.png">
   <head>
   <body>
@@ -47,48 +47,83 @@
 
   <div class="menu">
     <ul class="menuitems">
-      <li><a href="#hometext">HOME.</a></li>
-      <li><a href="#aboutme">ABOUT ME.</a></li>
-      <div class="portfoliotoggle">
-      <li class="portfolio"><a href="#portfolio">PORTFOLIO.</a></li>
+      <li><a href="#hometext">HOME</a></li>
+      <li><a href="#aboutme">ABOUT ME</a></li>
+      <li class="portfolio"><a href="#portfolio">PORTFOLIO</a></li>
+      <div class="othertoggle">
+      <li><a>OTHER</a></li>
         <ul class="submenu">
-          <li class="projects"><a href="#project1head">MULTI-TOUCH STYLUS</a></li>
-          <li class="projects"><a href="#project2head">DUAL-FUNCTION SUP PADDLE</a></li>
+          <li class="links"><a href="https://www.linkedin.com/in/kaitlynko" target="_blank">LINKEDIN</a></li>
+          <li class="links"><a href="images/resume.pdf" target="_blank">RESUME</a></li>
         </ul>
       </div>
-      <li><a href="images/resume.pdf" target="_blank">RESUME.</a></li>
-      <li><a href="#other">OTHER.</a></li>
     </ul>
   </div>
 
   <div id="aboutme">
-    <h2>a b o u t &nbspm e .</h2>
+    <h2>A B O U T &nbspM E</h2>
+    <div class="container">
     <div class="mypic">
     </div>
   </div>
+  <div class="aboutmetext">
+    <!--<p>HI. MY NAME IS KAITLYN KO. I'M CURRENTLY A STUDENT AT NORTHWESTERN UNIVERSITY, MAJORING IN MANUFACTURING & DESIGN ENGINEERING - ESSENTIALY, PRODUCT DESIGN. I STRIVE TO CREATE DESIGN THAT IS BOTH FUNCTIONAL & AESTHETICALLY APPEALING.</p>
+    <p>SOME THINGS I ENJOY DOING IN MY FREE TIME INCLUDE RUNNING, EATING, NAPPING WITH MY DOG, & PAINTING MY NAILS.</p>
+    <p>FUN FACT: I HATE GIVING FUN FACTS.</p>-->
+    <p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIZ NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMODO CONSEQUAT. DUISE AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE EU FUGIAT NULLA PARIATUR.</p>
+    <p>EXCEPTEUR SINT OCCAECAT CUPIDATAT NON PROIDENT, SUNT IN CULPA QUI OFFICIA DESERUNT MOLLIT ANIM ID EST LABORUM.</p>
+  </div>
+  </div>
 
   <div id="portfolio">
-    <h3>p o r t f o l i o .</h3>
-    <div class="project1">
-      <div class="project1shadow"></div>
-      <div class="project1text">
-        <span>BRACELUS</span>
-        <!--<p>a multi-touch stylus solution for a woman with spastic cerebral palsy</p>-->
-      </div>
-    </div>
-
-    <div class="project2">
-      <div class="project2shadow"></div>
-      <div class="project2text">
-      <span>PANDLE</span>
-      <p>a dual-function SUP paddle solution</p>
-    </div>
+    <h3>P O R T F O L I O</h3>
+    <table class="projects">
+      <div class="row1">
+        <td class="project1">
+        <a class="projectlinks" href="html/bracelus.html" target="_blank"><div class="project1toggle">
+            <p class="projectname">bracelus.</p>
+            <p class="projectblurb">a multi-touch stylus solution for a woman with spastic cerebral palsy</p>
+          </div></a>
+        </td>
+        <td class="project2">
+          <a class="projectlinks" href="html/pandle.html" target="_blank"><div class="project2toggle">
+            <p class="projectname">pandle.</p>
+            <p class="projectblurb">a dual-function stand-up paddle board paddle</p>
+        </div></a>
+      </td>
+        <td class="project3">
+          <div class="project3toggle">
+            <p class="projectblurb">more projects to come.</p>
+          </div>
+        </div>
+        </td>
+      </tr>
+      <tr class="row2">
+        <td class="project4">
+          <div class ="project4toggle">
+            <p class="projectblurb">more projects to come.</p>
+          </div>
+        </td>
+        <td class="project5">
+          <div class="project5toggle">
+            <p class="projectblurb">more projects to come.</p>
+          </div>
+        </td>
+        <td class="project6">
+          <div class="project6toggle">
+            <p class="projectblurb">more projects to come.</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <div class="copyright">
+        <p>&#9400; Kaitlyn Ko 2017</p>
     </div>
 </div>
 
 
   <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
   <script src="js/mywebsite.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </body>
 </html>

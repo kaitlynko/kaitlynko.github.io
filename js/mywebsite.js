@@ -9,17 +9,39 @@ $('.menuicon').on('click', function() {
 });
 
 $('.submenu').hide()
-  $('.portfoliotoggle').hover(function() {
+  $('.othertoggle').hover(function() {
     $('.submenu').slideToggle(400);
   });
 
-$('.project1shadow').hide()
+$('.project1toggle').hide()
 $('.project1').hover(function() {
-  $('.project1shadow').fadeToggle(100);
+  $('.project1toggle').fadeToggle(200);
 });
 
-$('.project2shadow').hide()
+$('.project2toggle').hide()
 $('.project2').hover(function() {
-  $('.project2shadow').fadeToggle(100);
+  $('.project2toggle').fadeToggle(200);
 });
+
+$('.project3toggle').hide()
+$('.project3').hover(function() {
+  $('.project3toggle').fadeToggle(200);
+});
+
+$('.project4toggle').hide()
+$('.project4').hover(function() {
+  $('.project4toggle').fadeToggle(200);
+});
+$('.project5toggle').hide()
+$('.project5').hover(function() {
+  $('.project5toggle').fadeToggle(200);
+});
+$('.project6toggle').hide()
+$('.project6').hover(function() {
+  $('.project6toggle').fadeToggle(200);
+});
+
+
+
+
 $(document).ready(mywebsite);
