@@ -1,16 +1,22 @@
 body {
   width: 100%;
   margin: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.7em;
 }
 
-#top {
+#background {
   width: 100%;
   height: 85%;
+  margin-top: 7%;
   background-image: url(../images/bracelus_sketches.png);
   background-position: center;
   background-size: contain;
   position: fixed;
-  margin-top: 8%;
+  z-index: 0;
 }
 
 h1 {
@@ -18,17 +24,16 @@ h1 {
   font-size: 4em;
   text-align: center;
   margin-bottom: 0;
-  margin-top: 1%;
+  margin-top: 3%;
   position: relative;
   z-index: 1;
 }
 
 p {
   text-align: center;
-  font-family: "Cormorant Garamond", serif;
-  font-style: italic;
-  font-size: 1.25em;
-  margin-top: 0;
+  font-family: "Work Sans", serif;
+  font-size: 1em;
+  margin-top: 2%;
   position: relative;
   z-index: 1;
 
@@ -40,7 +45,7 @@ p {
 }
 
 
-.introleft {
+.overview {
   width: 55%;
   float: left;
   text-align: left;
@@ -55,18 +60,21 @@ p {
   padding-left: 10%;
   padding-top: 4%;
   padding-bottom: 4%;
+  display: block;
   position: relative;
   z-index: 1;
 
 }
 
-.introright {
+.deliverables {
   margin-top: 5%;
+  margin-bottom: 90%;
   width: 63%;
-  position: relative;
-  z-index: 1;
   float: right;
   background-color: rgba(255, 241, 214, 0.9);
+  display: block;
+  position: relative;
+  z-index: 1;
 }
 
 h2 {
@@ -96,11 +104,24 @@ a {
 a:hover {
   color: rgb(252, 46, 88);
 }
-#middle {
+
+.design {
   width: 100%;
-  height: 1000px;
-  margin-top: 100%;
-  background-color: rgb(255, 241, 214);
   position: relative;
-  z-index: 0;
+  z-index: 1;
+  margin: auto;
+  clear: both;
+  display: block;
+}
+
+.problem {
+  width: 49%;
+  float: left;
+  background-color: rgba(255, 241, 214, 0.9)
+}
+
+.solution {
+  width: 49%;
+  float: right;
+  background-color: rgba(255, 241, 214, 0.9)
 }
