@@ -98,8 +98,7 @@ a:hover {
     color: rgb(255, 255, 255);
     border: none;
     outline: none;
-    position: relative;
-    z-index: 5;
+    position: fixed;
 }
 
 #aboutme {
