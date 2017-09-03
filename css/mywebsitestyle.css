@@ -69,9 +69,9 @@ h1 {
   font-family: "Work Sans",sans-serif;
   font-size: 1.75em;
   line-height: 1.5em;
-  margin-top: -30px;
-  margin-left: -28px;
-  position: relative;
+  margin-top: 10px;
+  margin-left: -30px;
+  position: fixed;
   z-index: 5;
   color: rgb(255, 255, 255);
 }
@@ -93,7 +93,8 @@ a:hover {
 .menuicon {
     font-size: 2em;
     margin: 0;
-    z-index: 2;
+    margin-top: -5px;
+    z-index: 6;
     background-color: rgba(0, 0, 0, 0);
     color: rgb(255, 255, 255);
     border: none;
