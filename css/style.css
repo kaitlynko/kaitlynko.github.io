@@ -1,0 +1,123 @@
+body {
+  width: 100%;
+  margin: 0%;
+  background-image: url(../images/poppies_edited.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: repeat;
+  z-index: -1;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(76, 120, 255, 0.7);
+  position: absolute;
+}
+#menuicon {
+  width: 30px;
+  height: 15px;
+  position: fixed;
+  margin: 10px;
+  z-index: 10;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#menuicon span {
+  display: block;
+  position: fixed;
+  height: 5px;
+  width: 100%;
+  background: white;
+  border-radius: 9px;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#menuicon span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#menuicon span:nth-child(2) {
+  top: 10px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#menuicon span:nth-child(3) {
+  top: 20px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+#menuicon.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -1px;
+  left: 5px;
+}
+
+#menuicon.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+#menuicon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 20px;
+  left: 5px;
+}
+
+#menu {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.7em;
+  color: white;
+  margin: auto;
+  margin-left: -30px;
+  margin-top: 10px;
+  position: fixed;
+  z-index: 0;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+.name {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/name.png);
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
