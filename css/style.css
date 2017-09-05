@@ -12,12 +12,12 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(76, 120, 255, 0.7);
-  position: absolute;
+  position: fixed;
 }
 #menuicon {
   width: 30px;
   height: 15px;
-  position: absolute;
+  position: fixed;
   margin: 10px;
   z-index: 10;
   -webkit-transform: rotate(0deg);
@@ -105,7 +105,7 @@ body {
   margin: auto;
   margin-left: -30px;
   margin-top: 10px;
-  position: absolute;
+  position: fixed;
   z-index: 9;
 }
 
