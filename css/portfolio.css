@@ -1,23 +1,13 @@
 body {
   width: 100%;
-  margin: 0%;
-  background-image: url(../images/poppies_edited.jpg);
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: repeat;
+  margin: 0;
+  background-color: rgb(61, 61, 61);
   z-index: -1;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(76, 120, 255, 0.7);
-  position: absolute;
 }
 #menuicon {
   width: 30px;
   height: 15px;
-  position: absolute;
+  position: relative;
   margin: 10px;
   z-index: 10;
   -webkit-transform: rotate(0deg);
@@ -105,22 +95,12 @@ body {
   margin: auto;
   margin-left: -30px;
   margin-top: 10px;
-  position: absolute;
+  position: relative;
   z-index: 9;
 }
 
 #menu ul {
   list-style: none;
-}
-
-#name {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-image: url(../images/name.png);
-  background-size: 70%;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 a, a:visited {
@@ -130,16 +110,18 @@ a, a:visited {
 }
 
 a:hover {
-  color: rgb(61, 61, 61);
+  color: rgb(178, 197, 255);
 }
-
-@media only screen and (max-width: 48px) {
-  #menuicon {
-    width: 60px;
-    height: 30px;
-  }
-
-  #menuicon span {
-    height: 10px;
-  }
+#header {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/wth.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  position: relative;
 }

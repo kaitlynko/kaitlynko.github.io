@@ -1,23 +1,14 @@
 body {
   width: 100%;
-  margin: 0%;
-  background-image: url(../images/poppies_edited.jpg);
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: repeat;
+  margin: 0;
+  background-color: rgb(178, 197, 255);
   z-index: -1;
 }
 
-.overlay {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(76, 120, 255, 0.7);
-  position: absolute;
-}
 #menuicon {
   width: 30px;
   height: 15px;
-  position: absolute;
+  position: relative;
   margin: 10px;
   z-index: 10;
   -webkit-transform: rotate(0deg);
@@ -36,7 +27,7 @@ body {
   position: fixed;
   height: 5px;
   width: 100%;
-  background: white;
+  background: rgb(61,61,61);
   border-radius: 9px;
   left: 0;
   -webkit-transform: rotate(0deg);
@@ -102,44 +93,66 @@ body {
   font-weight: 400;
   line-height: 1.7em;
   color: white;
-  margin: auto;
+  margin: 0;
   margin-left: -30px;
-  margin-top: 10px;
-  position: absolute;
-  z-index: 9;
+  margin-top: -20px;
+  position: relative;
+  z-index: 1;
 }
 
 #menu ul {
   list-style: none;
 }
 
-#name {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-image: url(../images/name.png);
-  background-size: 70%;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 a, a:visited {
   display: block;
   text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-a:hover {
   color: rgb(61, 61, 61);
 }
 
-@media only screen and (max-width: 48px) {
-  #menuicon {
-    width: 60px;
-    height: 30px;
-  }
+a:hover {
+  color: white;
+}
 
-  #menuicon span {
-    height: 10px;
-  }
+#header {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/aboutme.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  margin-bottom: 15px;
+  margin-top: -25px;
+}
+
+#mypiccontainer {
+  width: 25%;
+  display: block;
+  margin-right: 75px;
+  float: right;
+}
+
+#mypic {
+  padding-bottom: 100%;
+  display: block;
+  box-sizing: border-box;
+  background-image: url(../images/mypic.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#text {
+  width: 60%;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.15em;
+  line-height: 1.5em;
+  margin-left: 50px;
+  color: rgb(61, 61, 61);
+}
+
+#text p {
+  margin-top: 0;
 }
