@@ -133,13 +133,8 @@ a:hover {
   color: rgb(61, 61, 61);
 }
 
-@media only screen and (max-width: 48px) {
+@media (max-width: 350px) {
   #menuicon {
-    width: 60px;
-    height: 30px;
-  }
-
-  #menuicon span {
-    height: 10px;
+    width: 20%;
   }
 }

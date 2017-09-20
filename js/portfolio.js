@@ -5,4 +5,5 @@ $('#menu').hide();
 		$(this).toggleClass('open');
     $('#menu').slideToggle(300);
 	});
+
 });
