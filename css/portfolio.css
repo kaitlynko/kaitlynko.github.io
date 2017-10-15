@@ -174,14 +174,15 @@ a:hover {
   position: relative;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
-  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
   font-weight: 500;
   color: rgb(61,61,61);
   padding: 0;
 }
 
 .projects li {
-  line-height: 1.5em;
+  line-height: 2em;
   text-align: center;
 }
 

@@ -4,7 +4,7 @@ body {
   font-style: normal;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.7em;
 }
 
@@ -34,19 +34,6 @@ h1 {
   z-index: 5;
 }
 
-
-.back {
-  width: 80px;
-  height: 40px;
-  float: left;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: fixed;
-  z-index: 100;
-  margin-top: -50px;
-  font-weight: 300;
-}
 
 .arrow {
   width: 40px;
@@ -134,7 +121,7 @@ p {
   font-style: normal;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.7em;
   margin-top: 2%;
   background-color: rgb(255, 241, 214);
@@ -154,7 +141,8 @@ p {
   margin-top: 7%;
   margin-bottom: 7%;
   width: 63%;
-  float: right;
+  float: left;
+  padding-left: 10%;
   background-color: rgba(255, 241, 214, 0.9);
   display: block;
   position: relative;
@@ -246,7 +234,7 @@ h5 {
   z-index: 1;
   top: 100px;
   box-sizing: border-box;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -259,7 +247,7 @@ h5 {
     box-sizing: border-box;
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 70px;
 }
 .pic1container, .pic2container, .pic3container {
@@ -303,7 +291,7 @@ h5 {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 40px;
-  font-size: 1.25em;
+  font-size: 1.2em;
   color: white;
 }
 
@@ -312,7 +300,7 @@ h5 {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 40px;
-  font-size: 1.25em;
+  font-size: 1.2em;
   color: white;
 }
 
@@ -321,8 +309,8 @@ h5 {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 40px;
-  font-size: 1.25em;
-  color: white;  
+  font-size: 1.2em;
+  color: white;
 }
 
 @media (max-width: 480px) {
