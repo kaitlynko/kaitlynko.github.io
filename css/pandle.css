@@ -26,10 +26,10 @@ body {
 
 .header p {
   font-family: "Work Sans", sans-serif;
-  font-size: 3.5em;
+  font-size: 3.4em;
   text-align: left;
   margin-bottom: 0;
-  margin-top: 3%;
+  margin-top: 6%;
   position: relative;
   z-index: 5;
   width: 100%;
@@ -110,7 +110,7 @@ a:hover {
 }
 
 .overview {
-  width: 55%;
+  width: 54%;
   background-color: rgb(0, 0, 0);
   box-sizing: border-box;
   padding: 50px;
