@@ -3,26 +3,62 @@ body {
   margin: 0;
   background-image: url(../images/poppies_edited.jpg);
   background-position: center;
-  background-size: 80%;
+  background-size: 100%;
   background-repeat: repeat;
-  z-index: -1;
+  z-index: -10;
   position: fixed;
 }
 
 .overlay {
   width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.7);
+  height: 110%;
+  background-color: rgba(255, 255, 255, 0.88);
+  z-index: -9;
   position: fixed;
-  z-index: 0;
+}
+
+#header {
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url(../images/wth.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.projects {
+  margin-top: 220px;
+  list-style: none;
+  text-align: center;
+  z-index: 100;
+  position: relative;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-weight: 500;
+  color: rgb(61,61,61);
+  padding: 0;
+}
+
+.projects li {
+  line-height: 2em;
+  text-align: center;
+}
+
+.projects a {
+  display: inline-block;
 }
 
 #menuicon {
   width: 30px;
-  height: 35px;
-  position: fixed;
-  margin: 10px;
+  height: 15px;
+  position: relative;
   z-index: 10;
+  margin-top: 5px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -37,9 +73,9 @@ body {
 #menuicon span {
   display: block;
   position: fixed;
-  height: 5px;
+  height: 2px;
   width: 100%;
-  background: rgb(61, 61, 61);
+  background: black;
   border-radius: 9px;
   left: 0;
   -webkit-transform: rotate(0deg);
@@ -81,8 +117,6 @@ body {
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  top: -1px;
-  left: 5px;
 }
 
 #menuicon.open span:nth-child(2) {
@@ -95,97 +129,96 @@ body {
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  top: 20px;
-  left: 5px;
 }
 
-#menu {
-  font-family: "Work Sans", sans-serif;
-  width: 250px;
-  height: 100%;
-  font-size: 2em;
-  font-weight: 400;
-  line-height: 1.7em;
-  color: white;
-  margin: 0;
-  margin-left: -30px;
-  padding-top: 10px;
+#name {
   position: fixed;
-  z-index: 9;
-  background-color: rgba(178, 197, 255, 0.8);
-
-
-}
-
-#menu ul {
-  list-style: none;
-}
-
-#menu a, a:visited {
-  display: block;
-  text-decoration: none;
-  color: rgb(61, 61, 61);
-}
-
-#menu a:hover {
-  color: white;
-}
-
-a, a:visited {
-  display: block;
-  text-decoration: none;
-  color: rgb(61, 61, 61);
-}
-a:hover {
-  color: rgb(178, 197, 255);
-  text-decoration: underline;
-}
-
-#headercontainer {
   width: 100%;
-  height: 200px;
-  background-color: rgba(61, 61, 61, 0.7);
-  position: fixed;
-}
-
-#header {
-  width: 100%;
-  height: 175px;
-  position: fixed;
-  background-image: url(../images/wth.png);
+  height: 80%;
+  background-image: url(../images/name.png);
+  background-size: 100%;
   background-position: center;
-  background-size: contain;
   background-repeat: no-repeat;
 }
 
-
-#btn-close-modal {
-    width:100%;
-    text-align: center;
-    cursor: pointer;
-    color:#fff;
-}
-
-.projects {
-  margin-top: 220px;
-  list-style: none;
-  text-align: center;
-  z-index: 100;
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  font-weight: 500;
-  color: rgb(61,61,61);
+.navbar-toggler, .navbar-toggler-right, .navbar-toggler:active, .navbar-toggler-right:active {
   padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+  position: fixed;
+  z-index: 1000;
 }
 
-.projects li {
-  line-height: 2em;
-  text-align: center;
+ul, li, a {
+  color: black;
 }
 
-.projects a {
-  display: inline-block;
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.projlinks:hover {
+  color: rgb(193, 209, 255);
+  text-decoration: underline;
+}
+
+.navbar {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.navbar ul {
+  margin: auto;
+  margin-top: 5px;
+}
+
+.navbar li {
+  border-right: 1px solid black;
+  line-height: .5em;
+}
+
+.navbar a {
+  color: rgb(56, 55, 55);
+}
+
+.navbar a:hover {
+  color: rgb(142, 142, 142);
+}
+
+.navbar li:last-child {
+    border-right: none;
+}
+
+@media (max-width: 576px) {
+
+  .navbar li {
+    width: auto;
+    font-size: 1em;
+    line-height: 1.5em;
+    border: none;
+    border-bottom: 1px solid rgb(56, 55, 55);
+  }
+
+  #navmenu {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+  }
+
+  .navbar a {
+    padding: none;
+    width: 100px;
+    margin: auto;
+    color: rgb(56, 55, 55);
+  }
+
+  .navbar a:hover {
+    color: rgb(142, 142, 142);
+  }
+  .navbar {
+    text-align: center;
+  }
 }
