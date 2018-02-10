@@ -250,14 +250,14 @@ h5 {
 }
 
 .pandletoggle, .angledtoggle, .shaft1toggle, .shaft2toggle {
+  position: relative;
   width: 100%;
-  height: 100%;
+  height: 200px;
   background-color: rgba(76, 120, 255,0.7);
   font-size: 1.5em;
   color: white;
   font-weight: 400;
   padding: 10px;
-  box-sizing: border-box;
   text-transform: uppercase;
   letter-spacing: .2em;
 }
