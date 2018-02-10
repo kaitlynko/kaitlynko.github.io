@@ -14,20 +14,22 @@
 body {
   width: 100%;
   margin: 0%;
-  background-image: url(../images/poppies_edited.jpg);
+  /* background-image: url(../images/poppies_edited.jpg);
   background-position: bottom;
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: repeat; */
+  /* background-color: rgb(242, 230, 232); */
+  background-color: rgb(193, 209, 255);
   z-index: -1;
   position: absolute;
 }
 
-.overlay {
+/* .overlay {
   width: 100%;
   height: 100%;
   background-color: rgba(193, 209, 255, 0.88);
   position: fixed;
-}
+} */
 
 #menuicon {
   width: 30px;
@@ -51,7 +53,7 @@ body {
   position: fixed;
   height: 2px;
   width: 100%;
-  background: black;
+  background: white;
   border-radius: 9px;
   left: 0;
   -webkit-transform: rotate(0deg);
@@ -127,11 +129,11 @@ body {
 }
 
 ul, li, a {
-  color: black;
+  color: white;
 }
 
 a:hover {
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 .navbar {
@@ -146,7 +148,7 @@ a:hover {
 }
 
 .navbar li {
-  border-right: 1px solid black;
+  border-right: 1px solid white;
   line-height: .5em;
 }
 
