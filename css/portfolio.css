@@ -213,11 +213,11 @@ a:hover {
     padding: none;
     width: 100px;
     margin: auto;
-    color: rgb(56, 55, 55);
+    color: black;
   }
 
   .navbar a:hover {
-    color: rgb(142, 142, 142);
+    color: rgb(254, 29, 77);
   }
   .navbar {
     text-align: center;
