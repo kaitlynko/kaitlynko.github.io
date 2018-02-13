@@ -14,22 +14,22 @@ $(document).ready(function(){
 
 
 $('.pandletoggle').hide()
-$('.pandle').hover(function() {
+$('#pandle').hover(function() {
   $('.pandletoggle').fadeToggle(200);
 });
 
 $('.angledtoggle').hide()
-$('.angled').hover(function() {
+$('#angled').hover(function() {
   $('.angledtoggle').fadeToggle(200);
 });
 
 $('.shaft1toggle').hide()
-$('.shaft1').hover(function() {
+$('#shaft1').hover(function() {
   $('.shaft1toggle').fadeToggle(200);
 });
 
 $('.shaft2toggle').hide()
-$('.shaft2').hover(function() {
+$('#shaft2').hover(function() {
   $('.shaft2toggle').fadeToggle(200);
 });
 

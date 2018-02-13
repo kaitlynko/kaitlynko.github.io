@@ -5,7 +5,7 @@ body {
   background-position: center;
   background-size: 100%;
   background-repeat: repeat; */
-  background-color: rgb(242, 239, 255);
+  background-color: rgb(237, 243, 255);
   z-index: -10;
   position: fixed;
 }
