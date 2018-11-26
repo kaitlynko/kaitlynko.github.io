@@ -79,11 +79,12 @@ a:hover {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 4em;
   text-align: center;
   font-weight: 300;
   margin-top: 5%;
   margin-bottom: 90px;
+  letter-spacing: 3px;
 }
 
 #overview {
@@ -122,6 +123,7 @@ h2, h3, h4, h5 {
   color: white;
   font-weight: 600;
   margin-bottom: 20px;
+  letter-spacing: 1px;
 }
 
 #requirements {

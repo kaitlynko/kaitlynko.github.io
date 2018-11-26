@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(window).scrollTop(0);
+    $(window).scrollTop();
 });
 
 $('#menu').hide();
