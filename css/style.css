@@ -101,7 +101,7 @@ h4 {
   margin-top: 10%;
   transform: translateZ(-2px) scale(3);
   text-align: left;
-  margin-left: -350px;
+  margin-left: -25%;
 }
 
 #overlay {
@@ -116,11 +116,12 @@ h4 {
   background-position: center;
   background-size: cover;
   transform: translateZ(-1px) scale(2));
+  z-index: -1000;
 }
 
 #aboutme {
   margin-left: 10%;
-  margin-top: 1150px;
+  margin-top: 90%;
   position: absolute;
   width: 70%;
   height: 100vh;
@@ -272,7 +273,84 @@ h4 {
     border-right: none;
 }
 
+@media (max-height: 700px) {
+  #aboutme {
+    margin-top: 1000px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #text {
+    margin-top: 15%;
+  }
+
+  #aboutme {
+    margin-top: 1050px;
+  }
+
+  h4 {
+    padding-left: 0;
+  }
+
+  #aboutme_text, .made {
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    color: rgb(58,58,58);
+    width: 65%;
+    padding-bottom: 20px;
+    z-index: 1000;
+  }
+
+  #mypiccontainer {
+    width: 200px;
+    margin-right: -5%;
+  }
+
+}
+@media (max-width: 750px) {
+  #text {
+    width: 100%;
+    margin-left: 25%;
+    margin-top: 30%;
+  }
+
+  #aboutme {
+    width: 100%;
+    margin:0;
+    margin-top: 1000px;
+  }
+  #mypiccontainer {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  #aboutme_text {
+    margin-left: 5%;
+  }
+  h4 {
+    padding-left: 5%;
+  }
+}
+
 @media (max-width: 576px) {
+  #aboutme {
+    margin-top: 925px;
+  }
+  h4 {
+    padding-left: 5%;
+    text-align: center;
+  }
+  #mypiccontainer {
+    width: 150px;
+    float: none;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  #aboutme_text {
+    clear: right;
+    margin: auto;
+    width: 90%;
+  }
 
   .navbar li {
     width: auto;
