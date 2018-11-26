@@ -4,12 +4,6 @@ body {
   z-index: -20;
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
-  /* background-image: url(../images/poppies_edited.jpg);
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: repeat; */
-  /* background-color: rgb(242, 230, 232); */
-  /*background-color: rgb(193, 209, 255);*/
 }
 
 ul, li, a {
@@ -229,16 +223,6 @@ h4 {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-
-/*#name {
-  position: fixed;
-  width: 100%;
-  height: 80%;
-  background-image: url(../images/name.png);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-}*/
 
 .navbar-toggler, .navbar-toggler-right, .navbar-toggler:active, .navbar-toggler-right:active {
   padding: 0;
