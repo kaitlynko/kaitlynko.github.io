@@ -1,0 +1,110 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.7em;
+  overflow-x: hidden;
+  color: #333333;
+  scroll-behavior: smooth;
+  background-image: url(../images/penguin.jpg);
+  background-size: 100%;
+  background-repeat: none;
+  background-position: center;
+  overflow: hidden;
+}
+
+.parallax_background {
+  scroll-behavior: smooth;
+  perspective: 1px;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif;
+}
+
+#introblurb {
+  width: 45%;
+  margin-left: 100px;
+  color: white;
+  margin-top: 425px;
+  margin-bottom: 200px;
+}
+
+h2 {
+  color: black;
+  margin-left: 50px;
+  font-family: "Amiri", serif;
+  font-style: italic;
+  margin-top: 50px;
+}
+
+#solution h2 p {
+  float: left;
+  text-align: right;
+  clear: both;
+}
+
+#solution {
+  /* border: 1px solid black; */
+}
+
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+  color: black;
+  margin-top: 20px;
+}
+
+#background2 {
+  /* border: 5px solid black; */
+  /* border-style: outset; */
+  width: 80%;
+  background-color: rgba(255,255,255,0.9);
+}
+
+#problem {
+  float: left;
+}
+
+#requirements {
+  margin-top: 80px;
+}
+
+ul {
+  list-style-type: lower-roman;
+  list-style-position: outside;
+  margin-left: 80px;
+  font-family: "Amiri", serif;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: .85em;
+  width: 60%;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  /* border: 5px outset #c1e4e8; */
+  background-color: rgba(193, 228, 232,0.4);
+  margin-bottom: 50px;
+}
+
+ul .notbold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  text-transform: lowercase;
+  letter-spacing: normal;
+}

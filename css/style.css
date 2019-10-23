@@ -79,14 +79,14 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.made {
+.made, .scout {
   font-weight: 500;
   color: rgb(58,58,58);
   text-decoration: underline;
   font-size: 1em;
 }
 
-.made:hover {
+.made:hover, .scout:hover {
   color:rgb(244, 66, 66);
 }
 

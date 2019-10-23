@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Petit+Formal+Script|Work+Sans:300,400,600|Montserrat:300,400,500,600" rel="stylesheet">
+  <link href="../css/capstone.css" type="text/css" rel="stylesheet">
+  <head>
+    <title>smart egg.</title>
+    <link rel="icon" href="../images/icon.png">
+  <head>
+
+
+  <body>
+    <div class="parallax_background">
+      <div class="container-fluid" id="intro">
+        <h1>The Smart Penguin Egg</h1>
+
+        <p id="introblurb">In a 2-quarter long capstone project, I worked in a team with 4 other students to design and fabricate a “smart penguin egg”. We were tasked with the challenge of creating a device that would allow penguin caretakers at Shedd Aquarium to gather data on the penguins’ incubation process.</p>
+    <div class="container-fluid" id="background2">
+        <div class="row">
+          <div class="col-md-5" id="problem">
+            <h2>the problem.</h2>
+              <p>A current lack of quantitative data makes it difficult to identify when eggs are underdeveloping and what conditions would best promote healthy development.</p>
+          </div>
+          <div class="col-md-7" id="solution">
+            <h2>our solution.</h2>
+              <p>Our solution took the form of a 3D printed PLA egg housing and internal scaffold containing electronic components that measure applied temperature, humidity, and orientation of the egg. My main roles in the project were developing the structural components of our design (housing, internal scaffold), project management, and visual communication design.</p>
+          </div>
+        </div>
+        <div id="requirements">
+          <h2>requirements.</h2>
+          <p>In approaching how to design our solution, there were 3 main things to consider - the marine environment of the penguin enclosure, the penguins' safety, and the penguin caretakers who would be deploying the device. We defined the following requirements:</p>
+          <ul>
+            <li>splash resistant.<span class="notbold"> must be designed so as to pose no danger to penguins when exposed to moisture and water.</span></li>
+            <li>non-intrusive.<span class="notbold"> minimize changes to the natural behavior and movement of penguins as well as minimally affect the caretakers' current routines.</span></li>
+            <li>resilient to natural disturbance.<span class="notbold"> physically robust to possible interference and disturbance by penguins (i.e. kicking, pecking)</span></li>
+          </ul>
+          </div>
+        <div id="constraints">
+          <h2>constraints.</h2>
+          <p>In addition to requirements, there were the following constraints we had to account for:</p>
+          <ul>
+            <li>overall dimensions.<span class="notbold"> must be of similar size to Magellanic penguin egg</span></li>
+            <li>weight.<span class="notbold"> 90-120g</span></li>
+            <li>environment temperature.<span class="notbold"> 50-100&deg;F</span></li>
+            <li>operational duration.<span class="notbold"> battery life should last at least 1 week</span></li>
+          </ul>
+        </div>
+    </div>
+  </div>
+      <div id="thesolution">
+        <h1>The Smart Egg</h1>
+        <h2>external housing</h2>
+        <p>The external housing features a threaded closure to allow for ease of repeated opening and closing while maintaining splash resistance. 3D printed PLA construction allows the housing to be lightweight yet durable enough to survive a 3' drop.</p>
+        <h2>internal scaffold.</h2>
+        <p>The internal scaffold organizes the internal components of the smart egg and is designed to sit securely within the egg via a slot and seating feature. This ensures that components are secure and maintain their strategic placement within the egg while also allowing the scaffold to be easily removable for access to the SD card for data collection and the battery for replacement. The scaffold is also constructed of 3D printed PLA.
+        <h2>measurements</h2>
+        <h3>temperature</h3>
+          <p>To accurately measure the overall surface temperature of the egg, we used 4 infrared (IR) sensors placed in 4 quadrants of the egg</p>
+        <h3>humidity</h3>
+          <p>Finding a way to accurately measure humidity while protecting all other components from exposure to water proved to be a significant design challenge. After experimenting with other materials - PDMS membrane and silicone - we found Gore-tex patches to be an effective solution. The Gore-tex patch which featured an adhesive backing was secured over a hole (&#x2300;7.5mm) in the external housing where the humidity sensor was positioned over. Gore-tex being gas-permeable but waterproof allowed the humidity to measure the moisture in the air surrounding the egg while keeping all internal components protected from water.</p>
+        <h3>orientation</h3>
+          <p>We used an 9-DOF sensor (accel/mag/gyro) to collect data on the egg's orientation via angles of roll and pitch. These measurements in conjunction with the temperature sensors are used to inform the caretakers of which parts of the egg are being warmed directly by the penguin's brood pouch.</p>
+        <h2>battery & data collection</h2>
+        <p>At the end of the project, we had constructed 2 designs. Design 1 features data collection via an SD card and is powered by 3 AAA batteries. This was the further developed design that we had tested with the penguins. Design 2 features data collection via WiFi and is powered by a rechargeable, lithium-ion battery.</p>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="../js/bracelus.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+</html>
