@@ -2,7 +2,7 @@ body {
   width: 100%;
   margin: 0;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Montserrat", sans-serif;
   font-size: 1.1em;
   line-height: 1.7em;
@@ -158,10 +158,8 @@ h4 {
   width: 100%;
   height: 100vh;
   margin-bottom: 0;
-  background-image: url(../images/bdproto.png);
   background-size: contain;
   background-repeat: no-repeat;
-  /* border: 1px solid black; */
 }
 
 #BD {
@@ -210,7 +208,7 @@ h5 {
   height: 100vh;
   margin-top: 1500px;
   margin-bottom: 0;
-  background-image: url(../images/bdproto.png);
+  background-image: url(../images/webb/bdproto.png);
   background-size: contain;
   background-repeat: no-repeat;
   /* border: 1px solid black; */

@@ -38,28 +38,51 @@ h1 {
   width: 45%;
   margin-left: 100px;
   color: white;
-  margin-top: 425px;
+  margin-top: 400px;
   margin-bottom: 200px;
+}
+
+.row {
+  margin-top: 60px;
 }
 
 h2 {
   color: black;
   margin-left: 50px;
-  font-family: "Amiri", serif;
-  font-style: italic;
+  font-family: "Montserrat", serif;
+  font-size: 1.6em;
+  font-weight: 800;
+}
+
+#top {
   margin-top: 50px;
 }
 
-#solution h2 p {
-  float: left;
-  text-align: right;
-  clear: both;
+h3 {
+  font-size: 1.3em;
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
-#solution {
+#eggsketch {
+  background-image: url(../images/smartegg/scaffoldsketch.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   /* border: 1px solid black; */
 }
 
+#thesolution {
+  background-color: white;
+  float: left;
+  text-align: left;
+  clear: both;
+  border: 1px solid white;
+  margin-top: 500px;
+}
 
 p {
   margin-left: 50px;
@@ -71,8 +94,10 @@ p {
 #background2 {
   /* border: 5px solid black; */
   /* border-style: outset; */
-  width: 80%;
-  background-color: rgba(255,255,255,0.9);
+  width: 85%;
+  background-color: rgba(255,255,255,0.8);
+  padding: 20px;
+  border-radius: 20px;
 }
 
 #problem {
@@ -84,27 +109,93 @@ p {
 }
 
 ul {
-  list-style-type: lower-roman;
+  /* list-style-type: lower-roman; */
+  list-style-type: none;
   list-style-position: outside;
-  margin-left: 80px;
-  font-family: "Amiri", serif;
+  margin-left: 10%;
+  /* font-family: "Montserrat", serif; */
   font-weight: bold;
   text-align: left;
-  text-transform: uppercase;
-  font-size: .85em;
-  width: 60%;
-  letter-spacing: 2px;
+  text-transform: lowercase;
+  font-size: 1em;
+  width: 70%;
+  /* letter-spacing: 2px; */
   margin-top: 25px;
   /* border: 5px outset #c1e4e8; */
-  background-color: rgba(193, 228, 232,0.4);
   margin-bottom: 50px;
 }
 
 ul .notbold {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-style: normal;
-  font-size: 1em;
+  font-style: italic;
   text-transform: lowercase;
   letter-spacing: normal;
+}
+
+#thesolution {
+  background-color: rgba(255,255,255,0.85);
+}
+
+#thesolution h1 {
+  color: black;
+  font-style: italic;
+  font-weight: 700;
+}
+
+#housingpic {
+  background-image: url(../images/smartegg/external.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 400px;
+}
+
+#externaltext {
+  padding-top: 50px;
+  padding-left: 70px;
+}
+#internal {
+  height: 500px;
+}
+
+#internalpic {
+  background-image: url(../images/smartegg/scaffold.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#temptext {
+  /* padding-top: 50px; */
+  padding-left: 70px;
+}
+#temppic {
+  background-image: url(../images/smartegg/temp.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+#humidpic {
+  background-image: url(../images/smartegg/humidity.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  /* height: 450px; */
+}
+
+#measure {
+  margin-left: 70px;
+}
+
+#battery {
+  margin-top: 100px;
+  margin-left: 70px;
+}
+#battpic {
+  background-image: url(../images/smartegg/battery.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 500px;
 }

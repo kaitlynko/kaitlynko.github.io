@@ -18,18 +18,19 @@
       <div class="container-fluid" id="intro">
         <h1>The Smart Penguin Egg</h1>
 
-        <p id="introblurb">In a 2-quarter long capstone project, I worked in a team with 4 other students to design and fabricate a “smart penguin egg”. We were tasked with the challenge of creating a device that would allow penguin caretakers at Shedd Aquarium to gather data on the penguins’ incubation process.</p>
+        <p id="introblurb">In a 2-quarter long capstone project, I worked in a team with 4 other students to design and fabricate a “smart penguin egg” that would allow penguin caretakers at Shedd Aquarium to gather data on the penguins’ incubation process.</p>
     <div class="container-fluid" id="background2">
-        <div class="row">
-          <div class="col-md-5" id="problem">
-            <h2>the problem.</h2>
+            <h2 id="top">the problem.</h2>
               <p>A current lack of quantitative data makes it difficult to identify when eggs are underdeveloping and what conditions would best promote healthy development.</p>
-          </div>
-          <div class="col-md-7" id="solution">
+            <div class="row">
+              <div class="col-md-6">
             <h2>our solution.</h2>
-              <p>Our solution took the form of a 3D printed PLA egg housing and internal scaffold containing electronic components that measure applied temperature, humidity, and orientation of the egg. My main roles in the project were developing the structural components of our design (housing, internal scaffold), project management, and visual communication design.</p>
-          </div>
-        </div>
+              <p>Our solution took the form of a 3D printed PLA egg housing and internal scaffold containing electronic components that measure applied temperature, humidity, and orientation of the egg.</p>
+              <p> My main roles in the project were developing the structural components of our design (housing, internal scaffold), project management, and visual communication design.</p>
+            </div>
+            <div class="col-md-6" id="eggsketch">
+            </div>
+            </div>
         <div id="requirements">
           <h2>requirements.</h2>
           <p>In approaching how to design our solution, there were 3 main things to consider - the marine environment of the penguin enclosure, the penguins' safety, and the penguin caretakers who would be deploying the device. We defined the following requirements:</p>
@@ -51,32 +52,50 @@
         </div>
     </div>
   </div>
-      <div id="thesolution">
+      <div class="container-fluid" id="thesolution">
         <h1>The Smart Egg</h1>
-        <h2>external housing</h2>
-        <p>The external housing features a threaded closure to allow for ease of repeated opening and closing while maintaining splash resistance. 3D printed PLA construction allows the housing to be lightweight yet durable enough to survive a 3' drop.</p>
+        <div class="row" id="external">
+          <div class="col-md-7" id="externaltext">
+          <h2>external housing.</h2>
+          <p>The external housing features a threaded closure to allow for ease of repeated opening and closing while maintaining splash resistance. 3D printed PLA construction allows the housing to be lightweight yet durable enough to survive a 3' drop.</p>
+        </div>
+        <div class="col-md-5" id="housingpic">
+        </div>
+        </div>
+      <div class="row" id="internal">
+        <div class="col-md-6" id="internalpic">
+        </div>
+        <div class="col-md-6">
         <h2>internal scaffold.</h2>
-        <p>The internal scaffold organizes the internal components of the smart egg and is designed to sit securely within the egg via a slot and seating feature. This ensures that components are secure and maintain their strategic placement within the egg while also allowing the scaffold to be easily removable for access to the SD card for data collection and the battery for replacement. The scaffold is also constructed of 3D printed PLA.
-        <h2>measurements</h2>
-        <h3>temperature</h3>
+        <p>The internal scaffold organizes the smart egg's electronics and is designed to sit securely within the egg via a slot and seating feature. This ensures that components are secure and maintain their strategic placement within the egg while also allowing the scaffold to be easily removable for access to the SD card for data collection and the battery for replacement. The scaffold is also constructed of 3D printed PLA.
+        </div>
+      </div>
+        <h2 id="measure">measurements.</h2>
+        <div class="row">
+          <div class="col-md-6" id="temptext">
+          <h3>temperature</h3>
           <p>To accurately measure the overall surface temperature of the egg, we used 4 infrared (IR) sensors placed in 4 quadrants of the egg</p>
-        <h3>humidity</h3>
-          <p>Finding a way to accurately measure humidity while protecting all other components from exposure to water proved to be a significant design challenge. After experimenting with other materials - PDMS membrane and silicone - we found Gore-tex patches to be an effective solution. The Gore-tex patch which featured an adhesive backing was secured over a hole (&#x2300;7.5mm) in the external housing where the humidity sensor was positioned over. Gore-tex being gas-permeable but waterproof allowed the humidity to measure the moisture in the air surrounding the egg while keeping all internal components protected from water.</p>
-        <h3>orientation</h3>
+          <h3>orientation</h3>
           <p>We used an 9-DOF sensor (accel/mag/gyro) to collect data on the egg's orientation via angles of roll and pitch. These measurements in conjunction with the temperature sensors are used to inform the caretakers of which parts of the egg are being warmed directly by the penguin's brood pouch.</p>
-        <h2>battery & data collection</h2>
-        <p>At the end of the project, we had constructed 2 designs. Design 1 features data collection via an SD card and is powered by 3 AAA batteries. This was the further developed design that we had tested with the penguins. Design 2 features data collection via WiFi and is powered by a rechargeable, lithium-ion battery.</p>
-
-
-
-
-
-
-
-
-
-
-
+          </div>
+          <div class="col-md-6" id="temppic">
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-md-6" id="humidpic">
+        </div>
+        <div class="col-md-6">
+        <h3>humidity</h3>
+          <p><!-- Finding a way to accurately measure humidity while protecting all other components from exposure to water proved to be a significant design challenge. After experimenting with other materials - PDMS membrane and silicone - we found Gore-tex patches to be an effective solution. </p> -->The Gore-tex patch which featured an adhesive backing was secured over a hole (&#x2300;7.5mm) in the external housing where the humidity sensor was positioned over. Gore-tex being gas-permeable but waterproof allowed the humidity to measure the moisture in the air surrounding the egg while keeping all internal components protected from water.
+          </div>
+        </div>
+      <div class="row" id="battery">
+        <div class="col-md-6">
+        <h2>battery & data collection.</h2>
+        <p>At the end of the project, we had constructed 2 designs. Design 1 features data collection via an SD card and is powered by 3 AAA batteries. This was the further developed design that we had tested with the penguins. Design 2 features data collection via WiFi and is powered by a rechargeable, lithium-ion battery. Because of the larger battery, Design 2 requires larger housing as can be seen in this side-by-side.</p>
+        </div>
+        <div class="col-md-6" id="battpic">
+      </div>
     </div>
   </div>
 
