@@ -40,6 +40,7 @@ h1 {
   color: white;
   margin-top: 400px;
   margin-bottom: 200px;
+  font-size: 1.1em;
 }
 
 .row {
@@ -122,7 +123,7 @@ ul {
   /* letter-spacing: 2px; */
   margin-top: 25px;
   /* border: 5px outset #c1e4e8; */
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 ul .notbold {
@@ -135,12 +136,15 @@ ul .notbold {
 
 #thesolution {
   background-color: rgba(255,255,255,0.85);
+  /* background-color: rgba(54, 201, 255,0.85); */
+  border: none;
 }
 
 #thesolution h1 {
   color: black;
   font-style: italic;
   font-weight: 700;
+  margin-bottom: 0;
 }
 
 #housingpic {
@@ -164,9 +168,11 @@ ul .notbold {
   background-size: contain;
   background-repeat: no-repeat;
 }
+#temp {
+  margin-top: 0;
+}
 
 #temptext {
-  /* padding-top: 50px; */
   padding-left: 70px;
 }
 #temppic {
