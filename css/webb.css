@@ -3,11 +3,10 @@ body {
   margin: 0;
   font-style: normal;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.1em;
-  line-height: 1.7em;
+  font-family: "Karla", sans-serif;
+  font-size: 1.15em;
   overflow-x: hidden;
-  color: #333333;
+  color: black;
   scroll-behavior: smooth;
   background-image: url(../images/contours3.png);
   background-size: 110%;
@@ -22,41 +21,34 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   width: 100%;
+  background-color: rgba(255,255,255,.6);
 }
 
 #heading {
   width: 100%;
   margin: auto;
   overflow: hidden;
-  background-color: rgba(255,255,255,0.8);
   height: 100vh;
   /* transform: translateZ(-1px) scale(2); */
   z-index: -2;
 }
 
-h1, h3, h4, h5 {
-  font-family: "Amiri", serif;
+h1, h3 {
+  font-family:"Karla", serif;
   font-size: 1em;
-  font-weight: 400;
   text-align: center;
   margin-top: 3%;
 }
 
-h1 {
-  font-style: italic;
-}
-
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family:"Shrikhand", serif;
   font-size: 3.5em;
-  font-weight: 500;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   margin: auto;
   margin-top: 1%;
   text-align: center;
   margin-bottom: 35px;
   padding-bottom: 2%;
-  border-bottom: 2px solid black;
   width: 60%;
 }
 
@@ -74,8 +66,8 @@ a:hover {
   position: relative;
   width: 57%;
   margin: auto;
-  margin-top: 7%;
-  font-size: .9em;
+  margin-top: 5%;
+  font-size: 1em;
   overflow: hidden;
 }
 
@@ -83,11 +75,11 @@ a:hover {
   width: 50%;
 
 }
-h3, h4, h5 {
-  font-size: 1.75em;
+h3 {
+  font-size: 1.5em;
   font-weight: 700;
   text-align: left;
-  margin-left: 2%;
+  margin-left: 3%;
   margin-bottom: 2%;
   /* border: 1px solid black; */
   width: 100%;
@@ -96,13 +88,6 @@ h3, h4, h5 {
 
 }
 
-h4 {
-  text-align: left;
-  padding: 0;
-  margin-left: 3%;
-  font-size: 1.5em;
-  font-weight: 400;
-}
 #summary {
   /* border: 1px solid black; */
   overflow: hidden;
@@ -135,6 +120,7 @@ h4 {
   padding-top: 1%;
   padding-bottom: 1%;
 }
+
 #summaryblurb {
   padding-left: 15%;
   padding-right: 1%;
@@ -143,8 +129,9 @@ h4 {
 
 #workblurb {
   border-left: 2px solid #babad4;
+  padding-top: 2%;
   padding-left: 3%;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 #workblurb2 {
@@ -176,22 +163,14 @@ ul {
   padding-right: 5%;
   font-style: italic;
   font-weight: 600;
-  font-size: 1.3em;
+  font-size: 1.35em;
   color:#fffef5;
   text-shadow: 2px 2px #9f9fc9;
 }
 
-h5 {
-  font-style: italic;
-  margin: auto;
-  text-align: center;
-  padding: 100px;
-}
-
 #picblurb {
-  font-family: "Amiri", "serif";
-  font-weight: 700;
-  font-style: italic;
+  font-family: "Shrikhand", "serif";
+  letter-spacing: 1px;
   font-size: 1.5em;
   margin: auto;
   text-align: center;
@@ -294,8 +273,8 @@ h5 {
 }
 
 #scrollup {
-  font-family: "Amiri", "serif";
-  font-weight: 700;
+  font-family: "Shrikhand", "serif";
+  letter-spacing: 1px;
   font-size: 1.25em;
   color: #333333;
   margin-bottom: 40px;

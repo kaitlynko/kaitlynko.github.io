@@ -2,9 +2,9 @@ body {
   width: 100%;
   margin: 0;
   font-style: normal;
-  font-weight: 300;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.1em;
+  font-weight: 200;
+  font-family: "Karla", sans-serif;
+  font-size: 1.15em;
   line-height: 1.7em;
 }
 
@@ -20,31 +20,22 @@ body {
   opacity: 0.7;
 }
 
-.header {
-  height: 100px;
-  overflow: hidden;
-}
-
 h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3em;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 4em;
   text-align: center;
-  margin-bottom: 1%;
-  margin-top: 3.5%;
+  margin-bottom: 2%;
+  margin-top: 5%;
   position: relative;
-  letter-spacing: 5px;
   font-weight: 500;
+  letter-spacing: 3px;
   z-index: 5;
 }
 
 .subheader {
   margin-top: 0%;
-  letter-spacing: 1px;
 }
 
-li {
-  letter-spacing: 1px;
-}
 .arrow {
   width: 40px;
   height: 40px;
@@ -108,23 +99,16 @@ li {
 
 p {
   text-align: center;
-  font-family: "Montserrat", serif;
   font-size: 1em;
   margin-top: -15px;
   position: relative;
-  letter-spacing: 1px;
   z-index: 5;
 
-}
-
-span {
-  letter-spacing: 1px;
 }
 
 .bold {
   font-weight:800;
   font-style: normal;
-  letter-spacing: 1px;
 }
 
 
@@ -136,8 +120,6 @@ span {
   text-align: left;
   font-style: normal;
   font-weight: 300;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.1em;
   line-height: 1.7em;
   margin-top: 2%;
   background-color: rgb(255, 241, 214);
@@ -169,7 +151,6 @@ span {
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.75em;
   line-height: .3em;
   padding-left: 2%;
@@ -177,9 +158,6 @@ h2 {
   font-weight: 600;
 }
 .outline {
-  font-style: italic;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1em;
   line-height: 1.7em;
   text-align: left;
   padding-right: 10%;
@@ -242,7 +220,6 @@ a:hover {
 
 h3, h4 {
   font-size: 1.75em;
-  letter-spacing: 1px;
 }
 
 h5 {
@@ -258,7 +235,6 @@ h5 {
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
-  letter-spacing: 1px;
 }
 
 .piccontainer {
@@ -314,7 +290,6 @@ h5 {
   margin-left: 25px;
   margin-right: 20px;
   margin-top: 40px;
-  font-size: 1.1em;
   color: white;
 }
 
@@ -323,7 +298,6 @@ h5 {
   margin-left: 25px;
   margin-right: 20px;
   margin-top: 30px;
-  font-size: 1.1em;
   color: white;
 }
 
@@ -332,7 +306,6 @@ h5 {
   margin-left: 25px;
   margin-right: 20px;
   margin-top: 40px;
-  font-size: 1.1em;
   color: white;
 }
 

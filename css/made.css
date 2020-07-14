@@ -3,15 +3,14 @@ body {
   margin: 0;
   font-style: normal;
   font-weight: 300;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.1em;
-  line-height: 1.7em;
+  font-family: "Karla", sans-serif;
+  font-size: 1.15em;
   overflow-x: hidden;
   color: #333333;
   scroll-behavior: smooth;
   background-image: url(../images/penguin.jpg);
-  background-size: 100%;
-  background-repeat: none;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
 }
@@ -28,19 +27,26 @@ body {
 
 h1 {
   color: white;
-  margin-top: 40px;
-  margin-left: 40px;
-  font-size: 3em;
-  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 4em;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "Shrikhand", sans-serif;
 }
 
+#subheader {
+  color: white;
+  margin-top: 0;
+  text-align: center;
+
+}
 #introblurb {
   width: 45%;
-  margin-left: 100px;
+  margin-left: 50px;
   color: white;
   margin-top: 400px;
   margin-bottom: 200px;
-  font-size: 1.1em;
 }
 
 .row {
@@ -50,7 +56,6 @@ h1 {
 h2 {
   color: black;
   margin-left: 50px;
-  font-family: "Montserrat", serif;
   font-size: 1.6em;
   font-weight: 800;
 }
@@ -82,7 +87,7 @@ h3 {
   text-align: left;
   clear: both;
   border: 1px solid white;
-  margin-top: 500px;
+  margin-top: 400px;
 }
 
 p {
@@ -98,7 +103,8 @@ p {
   width: 85%;
   background-color: rgba(255,255,255,0.8);
   padding: 20px;
-  border-radius: 20px;
+  padding-bottom: 40px;
+  /* border-radius: 20px; */
 }
 
 #problem {
@@ -110,24 +116,19 @@ p {
 }
 
 ul {
-  /* list-style-type: lower-roman; */
   list-style-type: none;
   list-style-position: outside;
   margin-left: 10%;
-  /* font-family: "Montserrat", serif; */
   font-weight: bold;
   text-align: left;
   text-transform: lowercase;
   font-size: 1em;
   width: 70%;
-  /* letter-spacing: 2px; */
   margin-top: 25px;
-  /* border: 5px outset #c1e4e8; */
   margin-bottom: 70px;
 }
 
 ul .notbold {
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-style: italic;
   text-transform: lowercase;
@@ -136,7 +137,6 @@ ul .notbold {
 
 #thesolution {
   background-color: rgba(255,255,255,0.85);
-  /* background-color: rgba(54, 201, 255,0.85); */
   border: none;
 }
 
@@ -146,7 +146,11 @@ ul .notbold {
   font-weight: 700;
   margin-bottom: 0;
 }
-
+#smartegg {
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 40px;
+}
 #housingpic {
   background-image: url(../images/smartegg/external.png);
   background-size: contain;

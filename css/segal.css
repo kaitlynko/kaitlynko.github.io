@@ -3,30 +3,265 @@ body {
   margin: 0;
   font-style: normal;
   font-weight: 300;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.1em;
-  line-height: 1.7em;
-  color: #333333;
+  font-family: "Karla", sans-serif;
+  font-size: 1.15em;
+  overflow-x: hidden;
+  background-color: rgb(213, 224, 230);
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3em;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 4em;
   font-weight: 500;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   margin: auto;
-  margin-top: 1%;
-  text-align: center;
-  margin-top: 30px;
+  margin-left: 30px;
+  text-align: left;
   padding-bottom: 2%;
-  width: 60%;
 }
 
 h2 {
-  font-family: "Amiri", serif;
-  font-size: 1em;
+  font-size: 2em;
   margin: auto;
+  margin-top: 0;
+  margin-left: 60px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.15em;
+  font-weight: 700;
+  margin-left: 80px;
+}
+p {
+  margin-top: 100px;
+  margin-left: 60px;
+}
+
+#subheader {
+  margin-top: -15px;
+  margin-left: 30px;
   font-style: italic;
-  font-weight: 400;
-  text-align: center;
+  font-size: 1em;
+}
+
+#intro {
+   width: 100%;
+   height: 725px;
+   margin: auto;
+   overflow: hidden;
+   margin-right: -10px;
+}
+
+#introblurb {
+  margin-top: 30px;
+  padding-right: 30px;
+}
+
+#intropic {
+  clear: left;
+  background-image: url(../images/diabetes/holding.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#reqs {
+  margin-top: 100px;
+}
+#originalpic {
+  background-image: url(../images/diabetes/original.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#reqstext {
+  padding-top: 50px;
+}
+
+#reqs h2, ul {
+   margin-left: 20px;
+   margin-top: 10px;
+   padding-right: 60px;
+}
+#designdev {
+  margin-top: 100px;
+  height: 600px;
+}
+#designdevtext {
+  float: left;
+  margin-bottom: 100px;
+  padding-left: 30px;
+}
+
+#designdev p {
+  margin-top: 20px;
+}
+
+#designdevpic {
+  background-image: url(../images/diabetes/mockups.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#assembly {
+  height: 750px;
+  margin-top: -150px;
+}
+#assemblypic {
+  background-image: url(../images/diabetes/assembly.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#assemblytext {
+  padding-top: 300px;
+  padding-right: 50px;
+  padding-left: 0;
+}
+#final {
+  clear: both;
+  margin-top: 100px;
+}
+
+#final p {
+  margin-top: 20px;
+  padding-right: 50px;
+}
+
+#thirtyrow {
+  height: 600px;
+}
+
+.row {
+  height: 400px;
+}
+
+#thirtykitpic {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/diabetes/30kits.jpg);
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#thirtyrow ul {
+  margin-left: 70px;
+}
+
+.col-sm-4 {
+  padding: 60px 30px 60px 30px;
+}
+
+#one {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/diabetes/holding.jpg);
+}
+
+#two {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/diabetes/removingstrap.jpg);
+}
+
+#three {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/diabetes/strapoff.jpg);
+}
+
+#four {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/diabetes/removing.jpg);
+}
+
+#five {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/diabetes/opening.jpg);
+}
+
+#six {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/diabetes/open.jpg);
+}
+
+@media (max-width: 750px) {
+  .col-md-6, .col-md-7 {
+    height: 100vh;
+  }
+
+  #intro {
+    height: 1500px;
+  }
+  #assemblypic {
+    background-size: cover;
+  }
+
+  #assembly {
+    /* margin-top: 50px; */
+  }
+
+  #designdev {
+    margin-top: 600px;
+    text-align: left;
+    float: left;
+    margin-left: -70px;
+  }
+  #thirtyrow {
+    margin-top: 600px;
+    height: 1000px;
+    margin-bottom: 200px;
+  }
+  #thirtyrow h3 {
+    margin-top:100px;
+  }
+  #designdevpic {
+    margin-top: -300px;
+  }
+
+  #assemblypic {
+    margin-top: 400px;
+  }
+
+  #assemblytext {
+    margin-top: -350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-sm-4 {
+    padding: 10px 0 10px 0;
+  }
+
+  .row {
+    height: 900px;
+  }
+
+  #thirtykitpic {
+    margin-bottom: -160px;
+  }
 }

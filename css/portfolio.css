@@ -1,16 +1,17 @@
 body {
   width: 100%;
   margin: 0;
-  background-color: rgb(58, 58, 58);
+  /* background-color: rgb(58, 58, 58); */
+  background-color: rgb(196, 136, 96);
   z-index: -10;
   position: fixed;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 ul, li, a {
   color: white;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: .95em;
 }
 
@@ -18,26 +19,25 @@ ul, li, a {
   width: 100%;
   color: white;
   font-size: 4.5em;
-  font-family: "Amiri";
-  font-weight: 700;
-  font-size: 5em;
-  letter-spacing: 7px;
+  font-family: "Shrikhand";
+  /* font-weight: 700; */
+  font-size: 7em;
+  /* letter-spacing: 7px; */
   text-align: left;
-  margin-top: 5%;
-  margin-left: 8%;
+  margin-top: 2%;
+  margin-left: 5%;
 }
 
 .projects {
-  margin-top: 20px;
-  margin-left: 15%;
+  margin-top: 10px;
+  margin-left: 20%;
   list-style: none;
   text-align: left;
   z-index: 100;
   position: absolute;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.4em;
-  text-transform: uppercase;
-  color: rgb(61,61,61);
+  font-family: "Karla", sans-serif;
+  font-size: 1.5em;
+  /* color: rgb(61,61,61); */
   padding: 0;
 }
 
@@ -46,8 +46,7 @@ ul, li, a {
 }
 
 .projects a {
-  letter-spacing: 3px;
-  font-weight: 500;
+  font-weight: 600;
   display: inline-block;
 }
 
@@ -162,11 +161,13 @@ ul, li, a {
 }
 
 a:hover {
-  color: rgb(254, 29, 77);
+  /* color: rgb(254, 29, 77); */
+  color: rgb(0, 166, 130);
 }
 
 .projlinks:hover {
-  color: rgb(254, 29, 77);
+  /* color: rgb(254, 29, 77); */
+  color: rgb(0, 115, 90);
   text-decoration: underline;
 }
 

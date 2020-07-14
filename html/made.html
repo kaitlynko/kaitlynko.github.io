@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Petit+Formal+Script|Work+Sans:300,400,600|Montserrat:300,400,500,600" rel="stylesheet">
-  <link href="../css/capstone.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Petit+Formal+Script|Work+Sans:300,400,600|Montserrat:300,400,500,600|Karla:ital,wght@0,400;0,700;1,700|Modak|Shrikhand" rel="stylesheet">
+  <link href="../css/made.css" type="text/css" rel="stylesheet">
   <head>
     <title>smart egg.</title>
     <link rel="icon" href="../images/icon.png">
@@ -16,47 +16,51 @@
   <body>
     <div class="parallax_background">
       <div class="container-fluid" id="intro">
-        <h1>The Smart Penguin Egg</h1>
+        <h1>Smart Penguin Egg</h1>
+        <p id="subheader">my MaDE Capstone in partnership with Shedd Aquarium</p>
 
-        <p id="introblurb">In a 2-quarter long capstone project, I worked in a team with 4 other students to design and fabricate a “smart penguin egg” that would allow penguin caretakers at Shedd Aquarium to gather data on the penguins’ incubation process.</p>
+        <p id="introblurb">I worked in a team with 4 other students to design and fabricate a “smart penguin egg” - a device that gathers data on the penguins' incubation process, helping penguin caretakers at Shedd Aquarium to optimize their care.</p>
     <div class="container-fluid" id="background2">
-            <h2 id="top">the problem.</h2>
+            <h2 id="top">The Problem.</h2>
               <p>A current lack of quantitative data makes it difficult to identify when eggs are underdeveloping and what conditions would best promote healthy development.</p>
+
+              <div id="requirements">
+                <h2>Requirements.</h2>
+                <p>In approaching how to design our solution, there were 3 main things to consider - the marine environment of the penguin enclosure, the penguins' safety, and the penguin caretakers who would be deploying the device. We defined the following requirements:</p>
+                <ul>
+                  <li>splash resistant.<span class="notbold"> must be designed so as to pose no danger to penguins when exposed to moisture and water.</span></li>
+                  <li>non-intrusive.<span class="notbold"> minimize changes to the natural behavior and movement of penguins as well as minimally affect the caretakers' current routines.</span></li>
+                  <li>resilient to natural disturbance.<span class="notbold"> physically robust to possible interference and disturbance by penguins (i.e. kicking, pecking)</span></li>
+                </ul>
+                </div>
+
+                <div id="constraints">
+                  <h2>Constraints.</h2>
+                  <p>In addition to requirements, there were the following constraints we had to account for:</p>
+                  <ul>
+                    <li>overall dimensions.<span class="notbold"> must be of similar size to Magellanic penguin egg</span></li>
+                    <li>weight.<span class="notbold"> 90-120g</span></li>
+                    <li>environment temperature.<span class="notbold"> 50-100&deg;F</span></li>
+                    <li>operational duration.<span class="notbold"> battery life should last at least 1 week</span></li>
+                  </ul>
+                </div>
+
             <div class="row">
               <div class="col-md-6">
-            <h2>our solution.</h2>
+            <h2>Our Solution.</h2>
               <p>Our solution took the form of a 3D printed PLA egg housing and internal scaffold containing electronic components that measure applied temperature, humidity, and orientation of the egg.</p>
               <p> My main roles in the project were developing the structural components of our design (housing, internal scaffold), project management, and visual communication design.</p>
             </div>
             <div class="col-md-6" id="eggsketch">
             </div>
             </div>
-        <div id="requirements">
-          <h2>requirements.</h2>
-          <p>In approaching how to design our solution, there were 3 main things to consider - the marine environment of the penguin enclosure, the penguins' safety, and the penguin caretakers who would be deploying the device. We defined the following requirements:</p>
-          <ul>
-            <li>splash resistant.<span class="notbold"> must be designed so as to pose no danger to penguins when exposed to moisture and water.</span></li>
-            <li>non-intrusive.<span class="notbold"> minimize changes to the natural behavior and movement of penguins as well as minimally affect the caretakers' current routines.</span></li>
-            <li>resilient to natural disturbance.<span class="notbold"> physically robust to possible interference and disturbance by penguins (i.e. kicking, pecking)</span></li>
-          </ul>
-          </div>
-        <div id="constraints">
-          <h2>constraints.</h2>
-          <p>In addition to requirements, there were the following constraints we had to account for:</p>
-          <ul>
-            <li>overall dimensions.<span class="notbold"> must be of similar size to Magellanic penguin egg</span></li>
-            <li>weight.<span class="notbold"> 90-120g</span></li>
-            <li>environment temperature.<span class="notbold"> 50-100&deg;F</span></li>
-            <li>operational duration.<span class="notbold"> battery life should last at least 1 week</span></li>
-          </ul>
-        </div>
     </div>
   </div>
       <div class="container-fluid" id="thesolution">
-        <h1>The Smart Egg</h1>
+        <h1 id="smartegg">The Smart Egg</h1>
         <div class="row" id="external">
           <div class="col-md-7" id="externaltext">
-          <h2>external housing.</h2>
+          <h2>External Housing.</h2>
           <p>The external housing features a threaded closure to allow for ease of repeated opening and closing while maintaining splash resistance. 3D printed PLA construction allows the housing to be lightweight yet durable enough to survive a 3' drop.</p>
         </div>
         <div class="col-md-5" id="housingpic">
@@ -66,16 +70,16 @@
         <div class="col-md-6" id="internalpic">
         </div>
         <div class="col-md-6">
-        <h2>internal scaffold.</h2>
+        <h2>Internal Scaffold.</h2>
         <p>The internal scaffold organizes the smart egg's electronics and is designed to sit securely within the egg via a slot and seating feature. This ensures that components are secure and maintain their strategic placement within the egg while also allowing the scaffold to be easily removable for access to the SD card for data collection and the battery for replacement. The scaffold is also constructed of 3D printed PLA.
         </div>
       </div>
-        <h2 id="measure">measurements.</h2>
+        <h2 id="measure">Measurements.</h2>
         <div class="row" id="temp">
           <div class="col-md-6" id="temptext">
-          <h3>temperature</h3>
+          <h3>Temperature</h3>
           <p>To accurately measure the overall surface temperature of the egg, we used 4 infrared (IR) sensors placed in 4 quadrants of the egg.</p>
-          <h3>orientation</h3>
+          <h3>Orientation</h3>
           <p>We used an 9-DOF sensor (accel/mag/gyro) to collect data on the egg's orientation via angles of roll and pitch. These measurements in conjunction with the temperature sensors are used to inform the caretakers of which parts of the egg are being warmed directly by the penguin's brood pouch.</p>
           </div>
           <div class="col-md-6" id="temppic">
@@ -85,22 +89,19 @@
         <div class="col-md-6" id="humidpic">
         </div>
         <div class="col-md-6">
-        <h3>humidity</h3>
+        <h3>Humidity</h3>
           <p><!-- Finding a way to accurately measure humidity while protecting all other components from exposure to water proved to be a significant design challenge. After experimenting with other materials - PDMS membrane and silicone - we found Gore-tex patches to be an effective solution. </p> -->A Gore-tex patch which features an adhesive backing is secured over a hole (&#x2300;7.5mm) in the external housing over which the humidity sensor is positioned. Gore-tex being gas-permeable but waterproof allows the humidity sensor to measure the moisture in the air surrounding the egg while keeping all internal components protected from water.
           </div>
         </div>
       <div class="row" id="battery">
         <div class="col-md-6">
-        <h2>battery & data collection.</h2>
+        <h2>Battery & Data Collection.</h2>
         <p>At the end of the project, we had constructed 2 designs. Design 1 features data collection via an SD card and is powered by 3 AAA batteries. This was the further developed design that we had tested with the penguins. Design 2 features data collection via WiFi and is powered by a rechargeable, lithium-ion battery. Because of the larger battery, Design 2 requires larger housing as can be seen in this side-by-side.</p>
         </div>
         <div class="col-md-6" id="battpic">
       </div>
     </div>
   </div>
-
-
-  </body>
 
   <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
   <script src="../js/bracelus.js"></script>
