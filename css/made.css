@@ -39,8 +39,8 @@ h1 {
   color: white;
   margin-top: 0;
   text-align: center;
-
 }
+
 #introblurb {
   width: 45%;
   margin-left: 50px;
@@ -208,4 +208,31 @@ ul .notbold {
   background-repeat: no-repeat;
   background-position: left;
   height: 500px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  #subheader {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+
+  #introblurb {
+    width: 330px;
+    text-align: left;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 75px;
+  }
+
+  #background2 {
+    width: 325px;
+  }
+
+
+  }
 }
