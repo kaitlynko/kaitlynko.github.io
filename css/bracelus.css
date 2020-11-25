@@ -1,0 +1,410 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-style: normal;
+  font-weight: 200;
+  font-family: "Karla", sans-serif;
+  font-size: 1.15em;
+  line-height: 1.7em;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  margin-top: 12%;
+  background-image: url(../images/bracelus_sketches.png);
+  background-position: center;
+  background-size: contain;
+  position: fixed;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+h1 {
+  font-family: "Shrikhand", sans-serif;
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  position: relative;
+  font-weight: 500;
+  letter-spacing: 3px;
+  z-index: 5;
+}
+
+.subheader {
+  margin-top: 0%;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  background-image: url(../images/arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  z-index: 100;
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+}
+
+.arrowup {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  background-image: url(../images/arrowup.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  z-index: 100;
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+ 40% {-webkit-transform: translateY(-10px);}
+ 60% {-webkit-transform: translateY(-10px);}
+}
+
+@-moz-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+ 40% {-moz-transform: translateY(-10px);}
+ 60% {-moz-transform: translateY(-10px);}
+}
+
+@-o-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+ 40% {-o-transform: translateY(-10px);}
+ 60% {-o-transform: translateY(-10px);}
+}
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-10px);}
+ 60% {transform: translateY(-10px);}
+}
+
+p {
+  text-align: center;
+  font-size: 1em;
+  margin-top: -15px;
+  position: relative;
+  z-index: 5;
+
+}
+
+.bold {
+  font-weight:800;
+  font-style: normal;
+}
+
+
+.overview {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 25%;
+  top: 100px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.7em;
+  margin-top: 2%;
+  background-color: rgb(255, 241, 214);
+  box-sizing: border-box;
+  padding: 1.5%;
+  padding-left: 14.5%;
+  padding-top: 4%;
+  padding-right: 14.5%;
+  padding-bottom: 4%;
+  display: block;
+  position: relative;
+  z-index: 1;
+
+
+}
+
+.deliverables {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  width: 65%;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10%;
+  background-color: rgba(255, 241, 214, 0.9);
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  font-size: 1.75em;
+  line-height: .3em;
+  padding-left: 2%;
+  padding-top: 1%;
+  font-weight: 600;
+}
+.outline {
+  line-height: 1.7em;
+  text-align: left;
+  padding-right: 10%;
+  padding-left: 5%;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+a {
+  color: black;
+  font-weight: 600;
+}
+
+a:hover {
+  color: rgb(252, 46, 88);
+}
+
+.problem {
+  width: 60%;
+  box-sizing: border-box;
+  float: left;
+  clear: right;
+  background-color: rgba(255, 241, 214, 0.9);
+  padding: 20px;
+  padding-top: 0;
+  padding-left: 10%;
+  padding-right: 40px;
+}
+
+.problem p {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.requirements {
+  width: 60%;
+  box-sizing: border-box;
+  float: right;
+  clear: left;
+  background-color: rgba(255, 241, 214, 0.9);
+  margin-top: 10%;
+  padding: 20px;
+  padding-top: 0;
+  height: 100%;
+  padding-right: 7%;
+  padding-left: 40px;
+}
+
+.requirements p {
+  text-align: left;
+}
+
+.requirements li {
+  margin-top: 10px;
+}
+
+.requirements ul {
+  list-style-type: upper-roman;
+}
+
+h3, h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 2em;
+}
+.solution {
+  width: 100%;
+  background-color: rgba(255, 241, 214, 0.9);
+  position: relative;
+  clear: both;
+  z-index: 1;
+  top: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+.piccontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.pic1container, .pic2container, .pic3container {
+  width: 30%;
+}
+
+.pic1, .pic2, .pic3 {
+  padding-bottom: 100%;
+  z-index: 3;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pic1 {
+  background-image: url(../images/bracelus_side.JPG);
+}
+
+.pic2 {
+  background-image: url(../images/bracelus_open.JPG);
+}
+
+.pic3 {
+  background-image: url(../images/bracelus.JPG);
+}
+
+.pic1toggle, .pic2toggle, .pic3toggle {
+  width: 100%;
+  padding-bottom: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 5;
+  position: absolute;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.pic1toggle p {
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: 40px;
+  color: white;
+}
+
+.pic2toggle p {
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: 30px;
+  color: white;
+}
+
+.pic3toggle p {
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: 40px;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .pic2toggle p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .subheader {
+    margin-top: -20px;
+  }
+  .pic1toggle p {
+    font-size: .8em;
+    line-height: 1.5em;
+  }
+
+  .pic2toggle p {
+    font-size: .8em;
+    line-height: 1.5em;
+    margin-top: 20px;
+  }
+
+  .pic3toggle p {
+    margin-top: 30px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+  }
+  .subheader {
+    margin-top: -40px;
+  }
+  .piccontainer {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .pic1container, .pic2container, .pic3container{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .pic1toggle p {
+    font-size: 1em;
+  }
+
+  .pic2toggle p {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+
+  .pic3toggle p {
+    font-size: 1em;
+  }
+}
+@media (max-width: 576px) {
+  .pic1container, .pic2container, .pic3container{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .overview {
+    width: 100%;
+    margin-bottom: 300px;
+  }
+
+  .problem {
+    width: 100%;
+    margin-bottom: 200px;
+  }
+
+  .requirements {
+    margin-top: 0;
+    width: 100%;
+    margin-bottom: 200px;
+  }
+
+  .deliverables {
+    margin-top: 0;
+    width: 100%;
+    margin-bottom: 200px;
+    padding-left: 5%;
+  }
+
+  .solution {
+    margin-top: 0;
+
+  }
+
+}

@@ -1,0 +1,238 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-family: "Karla", sans-serif;
+  font-size: 1.15em;
+  overflow-x: hidden;
+  color: #333333;
+  scroll-behavior: smooth;
+  background-image: url(../images/penguin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.parallax_background {
+  scroll-behavior: smooth;
+  perspective: 1px;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 4em;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "Shrikhand", sans-serif;
+}
+
+#subheader {
+  color: white;
+  margin-top: 0;
+  text-align: center;
+}
+
+#introblurb {
+  width: 45%;
+  margin-left: 50px;
+  color: white;
+  margin-top: 400px;
+  margin-bottom: 200px;
+}
+
+.row {
+  margin-top: 60px;
+}
+
+h2 {
+  color: black;
+  margin-left: 50px;
+  font-size: 1.6em;
+  font-weight: 800;
+}
+
+#top {
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: 500;
+  font-style: italic;
+  color: black;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#eggsketch {
+  background-image: url(../images/smartegg/scaffoldsketch.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* border: 1px solid black; */
+}
+
+#thesolution {
+  background-color: white;
+  float: left;
+  text-align: left;
+  clear: both;
+  border: 1px solid white;
+  margin-top: 400px;
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+  color: black;
+  margin-top: 20px;
+}
+
+#background2 {
+  /* border: 5px solid black; */
+  /* border-style: outset; */
+  width: 85%;
+  background-color: rgba(255,255,255,0.8);
+  padding: 20px;
+  padding-bottom: 40px;
+  /* border-radius: 20px; */
+}
+
+#problem {
+  float: left;
+}
+
+#requirements {
+  margin-top: 80px;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+  margin-left: 10%;
+  font-weight: bold;
+  text-align: left;
+  text-transform: lowercase;
+  font-size: 1em;
+  width: 70%;
+  margin-top: 25px;
+  margin-bottom: 70px;
+}
+
+ul .notbold {
+  font-weight: 300;
+  font-style: italic;
+  text-transform: lowercase;
+  letter-spacing: normal;
+}
+
+#thesolution {
+  background-color: rgba(255,255,255,0.85);
+  border: none;
+}
+
+#thesolution h1 {
+  color: black;
+  font-style: italic;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+#smartegg {
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 40px;
+}
+#housingpic {
+  background-image: url(../images/smartegg/external.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 400px;
+}
+
+#externaltext {
+  padding-top: 50px;
+  padding-left: 70px;
+}
+#internal {
+  height: 500px;
+}
+
+#internalpic {
+  background-image: url(../images/smartegg/scaffold.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#temp {
+  margin-top: 0;
+}
+
+#temptext {
+  padding-left: 70px;
+}
+#temppic {
+  background-image: url(../images/smartegg/temp.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+#humidpic {
+  background-image: url(../images/smartegg/humidity.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  /* height: 450px; */
+}
+
+#measure {
+  margin-left: 70px;
+}
+
+#battery {
+  margin-top: 100px;
+  margin-left: 70px;
+}
+#battpic {
+  background-image: url(../images/smartegg/battery.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 500px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  #subheader {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+
+  #introblurb {
+    width: 330px;
+    text-align: left;
+    margin: auto;
+    margin-top: 300px;
+    margin-bottom: 75px;
+  }
+
+  #background2 {
+    width: 325px;
+  }
+
+
+  }
+}
