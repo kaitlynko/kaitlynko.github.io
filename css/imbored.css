@@ -208,6 +208,30 @@ body {
   background-image: url(../images/imbored/ethan.jpg);
 }
 
+#ten {
+  background-image: url(../images/imbored/christine.jpg);
+}
+
+#eleven {
+    background-image: url(../images/imbored/kenna1.jpg);
+}
+
+#twelve {
+    background-image: url(../images/imbored/kenna2.jpg);
+}
+
+#thirteen {
+    background-image: url(../images/imbored/drew1.jpg);
+}
+
+#fourteen {
+    background-image: url(../images/imbored/steph.jpg);
+}
+
+#fifteen {
+      background-image: url(../images/imbored/drew2.jpg);
+}
+
 #outline {
   scroll-behavior: smooth;
   position: relative;
